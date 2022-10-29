@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
 	return (
-		<div className="hero h-screen bg-[url('./media/bharath-g-s-aLGiPJ4XRO4-unsplash.jpg')] bg-contain bg-blend-multiply bg-slate-500 bg-fixed">
+		<div className="hero h-screen ">
 			<div className='hero-content text-center'>
 				<div className='max-w-md'>
 					<h1 className='text-5xl font-bold text-slate-300'>

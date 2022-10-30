@@ -3,6 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 html, body, #root{
   width: 100%;
   min-height: 100%;
@@ -10,15 +12,29 @@ html, body, #root{
 
 body{
   min-height: 100%;
-  background-image: url('./media/bharath-g-s-aLGiPJ4XRO4-unsplash.jpg');
-  background-size: contain;
+  background-image: url('./media/scott-webb-mV9-1XjnM4Y-unsplash.jpg');
+  background-size: fill;
   background-blend-mode: multiply;
-  background-color: #64748B;
-  background-position: fixed;
+  background-color: #262626;
+  background-position: top 33% center;
   /* background-repeat: no-repeat; */
 }
 
-/* .bg-gradient{
-  filter: brightness(50%);
+.cursor-grab{
+  cursor: default;
+}
+
+[data-testid="carousel-right-control"],
+[data-testid="carousel-left-control"]{
+  display: none;
+}
+
+/* .hello{
+  color: pink;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: white;
 } */
+
+
 

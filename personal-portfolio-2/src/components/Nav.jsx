@@ -12,7 +12,7 @@ const Nav = () => {
 
 	return (
 		<>
-			<header className='p-4 bg-slate-500 text-slate-300 w-full fixed top-0 z-10'>
+			<header className='p-4 text-slate-300 w-full fixed top-0 bg-transparent z-10'>
 				<div className='container flex justify-between h-16 mx-auto'>
 					<a
 						rel='noopener noreferrer'
@@ -86,11 +86,11 @@ const Nav = () => {
 			</header>
 
 			{mobileNavOpen && (
-				<div className=' w-[15em] h-[20em] fixed right-0 top-24 bg-slate-600 opacity-70'>
+				<div className=' w-[90%] h-[50%] fixed right-0 top-24 bg-black opacity-90 z-[10]'>
 					<ul className='h-full w-full flex flex-col justify-around text-white'>
-						<li className='w-full cursor-pointer text-center'>Home</li>
-						<li className='w-full cursor-pointer text-center'>Projects</li>
-						<li className='w-full cursor-pointer text-center'>Contact</li>
+						<li className='w-full cursor-pointer text-center font-bold'>Home</li>
+						<li className='w-full cursor-pointer text-center font-bold'>Projects</li>
+						<li className='w-full cursor-pointer text-center font-bold'>Contact</li>
 					</ul>
 				</div>
 			)}

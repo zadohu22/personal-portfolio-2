@@ -2,6 +2,7 @@ import React from 'react';
 import About from './components/About';
 import Hero from './components/Hero';
 import Nav from './components/Nav';
+import Projects from './components/Projects';
 import Slider from './components/Slider';
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
 			<Hero />
 			<Slider />
 			<About />
+			<Projects />
 		</div>
 	);
 };

@@ -13,11 +13,16 @@ html, body, #root{
 body{
   min-height: 100%;
   background-image: url('./media/scott-webb-mV9-1XjnM4Y-unsplash.jpg');
-  background-size: fill;
+  background-size: cover;
   background-blend-mode: multiply;
   background-color: #262626;
-  background-position: top 33% center;
-  /* background-repeat: no-repeat; */
+  background-position: top 50% center;
+  background-repeat: no-repeat;
+}
+
+.navbar-container{
+  background: rgba(0, 0, 0, 0.9)
+  
 }
 
 .cursor-grab{

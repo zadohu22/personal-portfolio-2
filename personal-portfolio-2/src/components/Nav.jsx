@@ -12,7 +12,7 @@ const Nav = () => {
 
 	return (
 		<>
-			<header className='p-4 text-slate-300 w-full fixed top-0 bg-transparent z-10'>
+			<header className='p-4 text-slate-300 w-full fixed top-0 bg-transparent z-10 navbar-container'>
 				<div className='container flex justify-between h-16 mx-auto'>
 					<a
 						rel='noopener noreferrer'

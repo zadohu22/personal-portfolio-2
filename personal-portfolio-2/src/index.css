@@ -34,12 +34,20 @@ body{
   display: none;
 }
 
-/* .hello{
-  color: pink;
-  font-size: 24px;
-  font-weight: 700;
-  background-color: white;
-} */
+.project-links-wrapper{
+  position: absolute;
+  right: 15%;
+}
+
+.project-links{
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.project-links:hover{
+  color: #F5985B;
+  transform: rotate(360deg);
+}
 
 
 

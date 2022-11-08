@@ -8,7 +8,7 @@ import Slider from "./components/Slider";
 
 const App = () => {
   return (
-    <div className='w-full h-full hellooooo'>
+    <div className='w-full h-full'>
       <Nav />
       <Hero />
       <Slider />

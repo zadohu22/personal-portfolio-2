@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
 import cookbook from "../media/cookbook.png";
 import storePage from "../media/storepage.png";
 import huddle from "../media/huddle.png";

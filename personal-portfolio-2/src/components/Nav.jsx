@@ -13,7 +13,7 @@ const Nav = () => {
 
   return (
     <>
-      <header className='p-4 text-slate-300 w-full fixed top-0 bg-transparent z-10 navbar-container'>
+      <header className='p-4 text-slate-300 w-full sticky top-0 bg-transparent z-10 navbar-container'>
         <div className='flex justify-between h-16 w-full'>
           {/* mx-auto ^^ */}
           <Link
@@ -91,7 +91,7 @@ const Nav = () => {
           {mobileNavOpen ? (
             <AiOutlineClose
               onClick={handleClick}
-              className='w-6 h-6 flex justify-end self-center relative right-4 md:hidden z-10 cursor-pointer'
+              className='w-6 h-6 flex justify-end self-center relative right-8 md:hidden z-10 cursor-pointer'
             />
           ) : (
             <button

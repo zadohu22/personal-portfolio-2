@@ -20,7 +20,7 @@ const Projects = () => {
         <DaisyCard
           image={cookbook}
           title='Cookbook App'
-          description='this is the description this is the description this is the description'
+          description='Full CRUD app using React, Tailwind, FirebaseDB and Spoonacular API.'
           badgeOne='React'
           badgeTwo='Firebase'
           live='https://cookbook-3b981.web.app/'
@@ -29,7 +29,7 @@ const Projects = () => {
         <DaisyCard
           image={huddle}
           title='Huddle Landing Page'
-          description='this is the description this is the description this is the description'
+          description='Fully responsive landing page. Challenge from frontendmentor.io'
           badgeOne='React'
           badgeTwo='Tailwind'
           live='https://zadohu22.github.io/Huddle-landing-page-FEM/'
@@ -38,7 +38,7 @@ const Projects = () => {
         <DaisyCard
           image={storePage}
           title='Shopping Cart'
-          description='this is the description this is the description this is the description'
+          description='Responsive product page with shopping cart, using React hooks.'
           badgeOne='React'
           badgeTwo='Tailwind'
           live='https://zadohu22.github.io/store-page-deploy/'
@@ -47,7 +47,7 @@ const Projects = () => {
         <DaisyCard
           image={pokemon}
           title='Memory Game'
-          description='this is the description this is the description this is the description'
+          description='Simple memory game using React hooks to keep track of score. '
           badgeOne='React'
           badgeTwo='API'
           live='https://zadohu22.github.io/memory-card-deploy/'
@@ -56,7 +56,7 @@ const Projects = () => {
         <DaisyCard
           image={weather}
           title='Current Weather'
-          description='this is the description this is the description this is the description'
+          description='Displays the current weather for a given city. Practices displaying API information.'
           badgeOne='VanillaJS'
           badgeTwo='Webpack'
           live='https://weather-71nf1ltls-zadohu22.vercel.app/'
@@ -65,7 +65,7 @@ const Projects = () => {
         <DaisyCard
           image={calc}
           title='Calculator'
-          description='this is the description this is the description this is the description'
+          description='One of my first projects, a basic calculator using VanillaJS.'
           badgeOne='VanillaJS'
           badgeTwo='Vanilla CSS'
           live='https://zadohu22.github.io/ProjectFour_TOP_Calculator/'

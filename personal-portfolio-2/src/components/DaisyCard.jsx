@@ -14,7 +14,9 @@ const DaisyCard = (props) => {
           {props.title}
         </h2>
 
-        <p className='absolute top-20 pr-4'>{props.description}</p>
+        <p className='absolute top-16 pr-4 font-bold text-center'>
+          {props.description}
+        </p>
 
         <div className='card-actions justify-start absolute bottom-6 left-6 flex flex-col md:flex-row'>
           <div className='badge badge-outline'>{props.badgeOne}</div>

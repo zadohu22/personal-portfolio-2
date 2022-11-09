@@ -22,7 +22,10 @@ body{
 
 .navbar-container{
   background: rgba(0, 0, 0, 0.9)
-  
+}
+
+.mobile-nav-link{
+  @apply w-full cursor-pointer flex justify-center items-center font-bold h-[6em] hover:text-primary
 }
 
 .cursor-grab{
@@ -49,5 +52,7 @@ body{
   transform: rotate(360deg);
 }
 
-
+footer{
+  background: rgba(0, 0, 0, 0.9)
+}
 

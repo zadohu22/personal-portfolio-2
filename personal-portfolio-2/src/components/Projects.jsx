@@ -10,8 +10,11 @@ import DaisyCard from "./DaisyCard";
 
 const Projects = () => {
   return (
-    <div className='w-full p-8 flex flex-col justify-center items-center gap-8'>
-      <h1 className='text-5xl underline'>Projects</h1>
+    <div
+      className='w-full p-8 flex flex-col justify-center items-center gap-8'
+      id='sectionThree'
+    >
+      <h1 className='text-5xl underline mb-12'>Projects</h1>
 
       <div className='w-full grid justify-items-center items-center grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3 xl:gap-[5em]'>
         <DaisyCard

@@ -1,6 +1,6 @@
 import React from "react";
 import About from "./components/About";
-import DaisyCard from "./components/DaisyCard";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
@@ -14,6 +14,7 @@ const App = () => {
       <Slider />
       <About />
       <Projects />
+      <Footer />
     </div>
   );
 };

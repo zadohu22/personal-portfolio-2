@@ -1,5 +1,6 @@
 {
   "name": "personal-portfolio-2",
+  "homepage": "https://zadohu22.github.io/personal-portfolio-2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,9 +14,12 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,6 +45,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.1"
   }

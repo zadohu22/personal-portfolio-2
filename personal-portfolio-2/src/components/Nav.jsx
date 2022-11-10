@@ -15,7 +15,6 @@ const Nav = () => {
     <>
       <header className='p-4 text-slate-300 w-full sticky top-0 bg-transparent z-10 navbar-container'>
         <div className='flex justify-between h-16 w-full'>
-          {/* mx-auto ^^ */}
           <Link
             activeClass='active'
             to='sectionOne'
@@ -57,13 +56,6 @@ const Nav = () => {
               >
                 About
               </Link>
-              {/* <a
-								rel='noopener noreferrer'
-								href='#'
-								className='flex items-center px-4 -mb-1 border-b-2 border-transparent text-slate-300 hover:text-primary hover:border-primary'
-							>
-								About
-							</a> */}
             </li>
             <li className='flex'>
               <Link
@@ -86,6 +78,7 @@ const Nav = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
+                className='flex items-center px-4 mb-1 border-b-2 border-transparent text-slate-300 cursor-pointer hover:text-primary hover:border-primary'
                 onClick={handleClick}
               >
                 Contact

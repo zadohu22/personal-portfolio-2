@@ -5,8 +5,17 @@ const DaisyCard = (props) => {
   return (
     <div className='card max-w-[22em] lg:max-w-[25em] h-[30rem] glass'>
       {/* <figure className='h-[50%]'> */}
-      <a href={props.live} className='w-full h-[50%]' target='_blank'>
-        <img src={props.image} className='h-full object-cover h-full w-full' />
+      <a
+        href={props.live}
+        className='w-full h-[50%]'
+        rel='noreferrer'
+        target='_blank'
+      >
+        <img
+          src={props.image}
+          alt='project preview'
+          className='h-full w-full object-cover '
+        />
       </a>
       {/* </figure> */}
       <div className='card-body relative'>
@@ -24,10 +33,10 @@ const DaisyCard = (props) => {
         </div>
 
         <div className='card-actions justify-end text-4xl mt-4 gap-8 absolute bottom-4 right-4'>
-          <a href={props.live} target='_blank'>
+          <a href={props.live} rel='noreferrer' target='_blank'>
             <SiGooglechrome className='project-links' />
           </a>
-          <a href={props.repo} target='_blank'>
+          <a href={props.repo} rel='noreferrer' target='_blank'>
             <SiGithub className='project-links' />
           </a>
         </div>

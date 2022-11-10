@@ -79,13 +79,17 @@ const Nav = () => {
               </Link>
             </li>
             <li className='flex'>
-              <a
-                rel='noopener noreferrer'
-                href='#'
-                className='flex items-center px-4 mb-1 border-b-2 border-transparent text-slate-300 hover:text-primary hover:border-primary'
+              <Link
+                activeClass='active'
+                to='sectionFour'
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                onClick={handleClick}
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
           {mobileNavOpen ? (

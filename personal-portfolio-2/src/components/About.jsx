@@ -17,9 +17,8 @@ const About = () => {
           Hello my name is <span className='text-primary'>Zach</span>, and I'm a
           front end React developer. After a long time in the customer service
           industry I decided that I wanted to find a career that was more
-          <span className='text-primary'> fulfilling</span>, so I started
-          learning web development and immediately fell in{" "}
-          <span className='text-primary'> love</span> with it.
+          fulfilling, so I started learning web development and immediately fell
+          in love with it.
         </p>
       </div>
 

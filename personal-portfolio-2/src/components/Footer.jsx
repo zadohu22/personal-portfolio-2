@@ -25,7 +25,10 @@ const Footer = () => {
     //   </div>
     // </footer>
 
-    <footer className='h-[5em] flex justify-between items-center border-t-2'>
+    <footer
+      className='h-[5em] flex justify-between items-center border-t-2'
+      id='sectionFour'
+    >
       <div className='text-3xl font-bold flex gap-1 ml-12 cursor-default'>
         <span className='text-primary'>Z</span>
         <span className='text-slate-303'>H</span>

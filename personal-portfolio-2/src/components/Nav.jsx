@@ -70,6 +70,7 @@ const Nav = () => {
                 Projects
               </Link>
             </li>
+
             <li className='flex'>
               <Link
                 activeClass='active'
@@ -79,7 +80,7 @@ const Nav = () => {
                 offset={-100}
                 duration={500}
                 className='flex items-center px-4 mb-1 border-b-2 border-transparent text-slate-300 cursor-pointer hover:text-primary hover:border-primary'
-                onClick={handleClick}
+                // onClick={handleClick}
               >
                 Contact
               </Link>

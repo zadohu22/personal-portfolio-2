@@ -26,20 +26,20 @@ const Slider = () => {
           indicators={false}
         >
           <div className='flex text-center h-4em justify-center items-center gap-10'>
-            <SiHtml5 className='text-slate-300 w-24 h-24 mb-8 cursor-default' />
-            <SiCss3 className='text-slate-300 w-24 h-24 mb-8 cursor-default' />
-            <SiJavascript className='text-slate-300 w-24 h-24 mb-8 cursor-default' />
+            <SiHtml5 className='text-secondary w-24 h-24 mb-8 cursor-default' />
+            <SiCss3 className='text-secondary w-24 h-24 mb-8 cursor-default' />
+            <SiJavascript className='text-secondary w-24 h-24 mb-8 cursor-default' />
           </div>
           <div className='flex text-center h-4em justify-center items-center gap-10'>
-            <SiReact className='text-slate-300 w-24 h-24 mb-8 cursor-default' />
-            <SiTailwindcss className='text-slate-300 w-24 h-24 mb-8 cursor-default' />
-            <SiGithub className='text-slate-300 w-24 h-24 mb-8 cursor-default' />
+            <SiReact className='text-secondary w-24 h-24 mb-8 cursor-default' />
+            <SiTailwindcss className='text-secondary w-24 h-24 mb-8 cursor-default' />
+            <SiGithub className='text-secondary w-24 h-24 mb-8 cursor-default' />
           </div>
 
           <div className='flex text-center h-4em justify-center items-center gap-10'>
-            <SiNodedotjs className='text-slate-300 w-24 h-24 mb-8 cursor-default' />
-            <SiMongodb className='text-slate-300 w-24 h-24 mb-8 cursor-default' />
-            <SiFirebase className='text-slate-300 w-24 h-24 mb-8 cursor-default' />
+            <SiNodedotjs className='text-secondary w-24 h-24 mb-8 cursor-default' />
+            <SiMongodb className='text-secondary w-24 h-24 mb-8 cursor-default' />
+            <SiFirebase className='text-secondary w-24 h-24 mb-8 cursor-default' />
           </div>
         </Carousel>
       </div>

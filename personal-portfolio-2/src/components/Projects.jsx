@@ -10,12 +10,27 @@ import DaisyCard from "./DaisyCard";
 const Projects = () => {
   return (
     <div
-      className='w-full p-8 flex flex-col justify-center items-center gap-8'
+      className='w-full p-8 flex flex-col justify-center items-center gap-8 projects-container relative'
       id='sectionThree'
     >
-      <h1 className='text-5xl underline mb-12'>Projects</h1>
+      <div class='custom-shape-divider-top-1668563140'>
+        <svg
+          data-name='Layer 1'
+          xmlns='http://www.w3.org/2000/svg'
+          viewBox='0 0 1200 120'
+          preserveAspectRatio='none'
+        >
+          <path
+            d='M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z'
+            class='shape-fill'
+          ></path>
+        </svg>
+      </div>
+      <h1 className='text-5xl mt-24  mb-12 relative bottom-4 text-accent font-bold'>
+        Projects
+      </h1>
 
-      <div className='w-full grid justify-items-center items-center grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3 xl:gap-[5em]'>
+      <div className='w-full mt-12 grid justify-items-center items-center grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3 xl:gap-[5em]'>
         <DaisyCard
           image={cookbook}
           title='Cookbook App'

@@ -26,7 +26,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className='w-full h-full flex flex-col justify-center items-center md:px-6 md:py-20 '>
+        <div className='w-full h-full flex flex-col justify-center items-center'>
           <h2 className='text-5xl text-secondary h-auto font-bold place-self-center'>
             Skills
           </h2>

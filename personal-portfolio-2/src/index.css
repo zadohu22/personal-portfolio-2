@@ -90,6 +90,10 @@ body{
   background-color: white;
 }
 
+.tech-icons{
+  @apply text-secondary w-24 h-24 cursor-default;
+}
+
 .projects-container{
   /* background: linear-gradient(0deg, rgba(22,25,37,1) 0%, rgba(64,110,142,1) 100%); */
   /* background-image: url('./media/scott-webb-mV9-1XjnM4Y-unsplash.jpg'); */

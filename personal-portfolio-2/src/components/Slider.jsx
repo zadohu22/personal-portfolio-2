@@ -26,20 +26,20 @@ const Slider = () => {
           indicators={false}
         >
           <div className='flex text-center h-4em justify-center items-center gap-10'>
-            <SiHtml5 className='text-secondary w-24 h-24 mb-8 cursor-default' />
-            <SiCss3 className='text-secondary w-24 h-24 mb-8 cursor-default' />
-            <SiJavascript className='text-secondary w-24 h-24 mb-8 cursor-default' />
+            <SiHtml5 className='tech-icons' />
+            <SiCss3 className='tech-icons' />
+            <SiJavascript className='tech-icons' />
           </div>
           <div className='flex text-center h-4em justify-center items-center gap-10'>
-            <SiReact className='text-secondary w-24 h-24 mb-8 cursor-default' />
-            <SiTailwindcss className='text-secondary w-24 h-24 mb-8 cursor-default' />
-            <SiGithub className='text-secondary w-24 h-24 mb-8 cursor-default' />
+            <SiReact className='tech-icons' />
+            <SiTailwindcss className='tech-icons' />
+            <SiGithub className='tech-icons' />
           </div>
 
           <div className='flex text-center h-4em justify-center items-center gap-10'>
-            <SiNodedotjs className='text-secondary w-24 h-24 mb-8 cursor-default' />
-            <SiMongodb className='text-secondary w-24 h-24 mb-8 cursor-default' />
-            <SiFirebase className='text-secondary w-24 h-24 mb-8 cursor-default' />
+            <SiNodedotjs className='tech-icons' />
+            <SiMongodb className='tech-icons' />
+            <SiFirebase className='tech-icons' />
           </div>
         </Carousel>
       </div>

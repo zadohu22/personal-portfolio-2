@@ -4,7 +4,7 @@ import storePage from "../media/storepage.png";
 import huddle from "../media/huddle.png";
 import pokemon from "../media/pokemon.png";
 import weather from "../media/weather.png";
-import calc from "../media/calc.png";
+import flashcards from "../media/flashcards.png";
 import DaisyCard from "./DaisyCard";
 
 const Projects = () => {
@@ -31,6 +31,16 @@ const Projects = () => {
       </h1>
 
       <div className='w-full mt-12 grid justify-items-center items-center grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3 xl:gap-[5em]'>
+        <DaisyCard
+          image={flashcards}
+          title='Flashcards App'
+          description='Full CRUD flashcard app with encrypted user authentication. Using React, Node, Express, MySQL, JWT.'
+          badgeOne='Node'
+          badgeTwo='MySQL'
+          live='https://flashcardappclient-production.up.railway.app'
+          repo='https://github.com/zadohu22/Flashcards-App'
+        />
+
         <DaisyCard
           image={cookbook}
           title='Cookbook App'
@@ -75,15 +85,6 @@ const Projects = () => {
           badgeTwo='Webpack'
           live='https://weather-71nf1ltls-zadohu22.vercel.app/'
           repo='https://github.com/zadohu22/weatherApp'
-        />
-        <DaisyCard
-          image={calc}
-          title='Calculator'
-          description='One of my first projects, a basic calculator using VanillaJS.'
-          badgeOne='VanillaJS'
-          badgeTwo='Vanilla CSS'
-          live='https://zadohu22.github.io/ProjectFour_TOP_Calculator/'
-          repo='https://github.com/zadohu22/ProjectFour_TOP_Calculator'
         />
       </div>
     </div>

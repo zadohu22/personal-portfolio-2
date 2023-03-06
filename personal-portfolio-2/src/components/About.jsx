@@ -1,6 +1,19 @@
 import React from "react";
 import face from "../media/received_787813755812499.jpeg";
+import SkillContainer from "./SkillContainer";
 import Slider from "./Slider";
+import {
+  SiReact,
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiTailwindcss,
+  SiFirebase,
+  SiGithub,
+  SiNodedotjs,
+  SiMysql,
+  SiExpress,
+} from "react-icons/si";
 
 const About = () => {
   return (
@@ -30,7 +43,43 @@ const About = () => {
           <h2 className='text-5xl text-secondary h-auto font-bold place-self-center'>
             Skills
           </h2>
-          <div className='flex gap-8 text-center flex-1 mt-20 '>
+
+          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8'>
+            {/* SiReact, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiFirebase,
+            SiGithub, SiNodedotjs, SiMongodb, */}
+            <SkillContainer text={"React"}>
+              <SiReact />
+            </SkillContainer>
+            <SkillContainer text={"JavaScript(ES6)"}>
+              <SiJavascript />
+            </SkillContainer>
+            <SkillContainer text={"Html5"}>
+              <SiHtml5 />
+            </SkillContainer>
+            <SkillContainer text={"CSS3"}>
+              <SiCss3 />
+            </SkillContainer>
+            <SkillContainer text={"TailwindCSS"}>
+              <SiTailwindcss />
+            </SkillContainer>
+            <SkillContainer text={"MySQL"}>
+              <SiMysql />
+            </SkillContainer>
+            <SkillContainer text={"Node.js"}>
+              <SiNodedotjs />
+            </SkillContainer>
+            <SkillContainer text={"Express.js"}>
+              <SiExpress />
+            </SkillContainer>
+            <SkillContainer text={"Firebase"}>
+              <SiFirebase />
+            </SkillContainer>
+            <SkillContainer text={"GitHub"}>
+              <SiGithub />
+            </SkillContainer>
+          </div>
+
+          {/* <div className='flex gap-8 text-center flex-1 mt-20 '>
             <div className='border-r-2  md:border-l-0 border-slate-300 pr-4'>
               <h3 className=' text-2xl font-bold underline text-secondary '>
                 Experienced
@@ -55,7 +104,7 @@ const About = () => {
                 <li>SQL</li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

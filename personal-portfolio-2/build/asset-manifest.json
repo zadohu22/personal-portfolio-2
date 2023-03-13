@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio-2/static/css/main.e8d52e8c.css",
-    "main.js": "/personal-portfolio-2/static/js/main.a43381e2.js",
+    "main.css": "/personal-portfolio-2/static/css/main.74458fe4.css",
+    "main.js": "/personal-portfolio-2/static/js/main.a79d3d12.js",
     "static/media/weather.png": "/personal-portfolio-2/static/media/weather.0cf6825f342dc992de70.png",
     "static/media/storepage.png": "/personal-portfolio-2/static/media/storepage.7e4a0d2027886b116e69.png",
     "static/media/cookbook.png": "/personal-portfolio-2/static/media/cookbook.0c6b3903fd6baf3b891a.png",
@@ -9,14 +9,14 @@
     "static/media/pokemon.png": "/personal-portfolio-2/static/media/pokemon.cad6977b02ce19a6f152.png",
     "static/media/huddle.png": "/personal-portfolio-2/static/media/huddle.e482403f0f7bedc2100f.png",
     "static/media/received_787813755812499.jpeg": "/personal-portfolio-2/static/media/received_787813755812499.e924d18846619dbb917d.jpeg",
-    "static/media/calc.png": "/personal-portfolio-2/static/media/calc.98fa975e727e016fd826.png",
+    "static/media/flashcards.png": "/personal-portfolio-2/static/media/flashcards.904456bcc3e3ae205cfe.png",
     "index.html": "/personal-portfolio-2/index.html",
     "static/media/curveNegative.svg": "/personal-portfolio-2/static/media/curveNegative.27d9756f767cd772720d93986341b558.svg",
-    "main.e8d52e8c.css.map": "/personal-portfolio-2/static/css/main.e8d52e8c.css.map",
-    "main.a43381e2.js.map": "/personal-portfolio-2/static/js/main.a43381e2.js.map"
+    "main.74458fe4.css.map": "/personal-portfolio-2/static/css/main.74458fe4.css.map",
+    "main.a79d3d12.js.map": "/personal-portfolio-2/static/js/main.a79d3d12.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8d52e8c.css",
-    "static/js/main.a43381e2.js"
+    "static/css/main.74458fe4.css",
+    "static/js/main.a79d3d12.js"
   ]
 }

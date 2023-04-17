@@ -30,12 +30,14 @@ const About = () => {
             className='w-[10em] h-[10em] object-cover mask mask-hexagon-2'
           />
           <p className='flex-1 text-left text-secondary mt-8 relative bottom-8 md:bottom-4 md:mb-[8rem] leading-10 text-xl max-w-[80%] xl:max-w-[60%]'>
-            Hello my name is{" "}
-            <span className='text-primary font-bold'>Zach</span>, and I'm a
-            front end React developer. After years in the customer service
-            industry, I decided that I wanted to a more creative and fulfilling
-            career, so I started learning web development and immediately fell
-            in love with it.
+            I'm <span className='text-orange-300'>Zach</span> a self-taught
+            developer with a passion for coding and a desire to work alongside a
+            team of experienced developers to continue learning and improving my
+            skills. I have a strong foundation in various programming languages
+            ​​including JavaScript, HTML, CSS and Python as well as experience
+            with various web development frameworks such as React, Node.js and
+            Express. In my previous projects I have demonstrated my ability to
+            work with the front-end and back-end aspects of web development.
           </p>
         </div>
 
@@ -45,8 +47,6 @@ const About = () => {
           </h2>
 
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8'>
-            {/* SiReact, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiFirebase,
-            SiGithub, SiNodedotjs, SiMongodb, */}
             <SkillContainer text={"React"}>
               <SiReact />
             </SkillContainer>
@@ -78,33 +78,6 @@ const About = () => {
               <SiGithub />
             </SkillContainer>
           </div>
-
-          {/* <div className='flex gap-8 text-center flex-1 mt-20 '>
-            <div className='border-r-2  md:border-l-0 border-slate-300 pr-4'>
-              <h3 className=' text-2xl font-bold underline text-secondary '>
-                Experienced
-              </h3>
-              <ul className='mt-4 flex flex-col gap-2 font-bold text-xl text-secondary'>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>ReactJS</li>
-                <li>Tailwind</li>
-                <li>Github</li>
-                <li>Firebase</li>
-              </ul>
-            </div>
-
-            <div className='w-full'>
-              <h3 className=' text-2xl font-bold underline'>In progress</h3>
-              <ul className='mt-4 flex flex-col gap-2 font-bold text-xl'>
-                <li>Node.js</li>
-                <li>MongoDB</li>
-                <li>Express</li>
-                <li>SQL</li>
-              </ul>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

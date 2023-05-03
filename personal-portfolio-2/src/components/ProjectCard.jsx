@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
     <div className='w-full flex justify-center items-center lg:w-[85%] 2xl:w-[70%] h-[20em] border-2 border-slate-300 rounded-md'>
       <img
         src={props.image}
-        alt='cookbook'
+        alt='project'
         className='w-[40%] self-start h-full object-cover object-top rounded-tr-md rounded bl-md'
       />
 

@@ -34,7 +34,7 @@ const Projects = () => {
         <DaisyCard
           image={flashcards}
           title='Flashcards App'
-          description='Full CRUD flashcard app with encrypted user authentication. Using React, Node, Express, MySQL, JWT. Deployed with Railway, server shuts down about halfway through the month :('
+          description='Full CRUD flashcard app with encrypted user authentication. Using React, Node, Express, MySQL, JWT. Deployed with Railway.'
           badgeOne='Node'
           badgeTwo='MySQL'
           live='https://flashcardappclient-production.up.railway.app'

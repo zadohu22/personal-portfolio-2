@@ -30,14 +30,14 @@ const About = () => {
             className='w-[10em] h-[10em] object-cover mask mask-hexagon-2'
           />
           <p className='flex-1 text-left text-secondary mt-8 relative bottom-8 md:bottom-4 md:mb-[8rem] leading-10 text-xl max-w-[80%] xl:max-w-[60%]'>
-            I'm <span className='text-orange-300'>Zach</span> a self-taught
+            I'm <span className='text-orange-600'>Zach</span> a self-taught
             developer with a passion for coding and a desire to work alongside a
             team of experienced developers to continue learning and improving my
             skills. I have a strong foundation in various programming languages
             ​​including JavaScript, HTML, CSS and Python as well as experience
             with various web development frameworks such as React, Node.js and
-            Express. In my previous projects I have demonstrated my ability to
-            work with the front-end and back-end aspects of web development.
+            Express. In my projects I have demonstrated my ability to work with
+            the front-end and back-end aspects of web development.
           </p>
         </div>
 

@@ -27,7 +27,7 @@ const Hero = () => {
             Hello, I'm <span className='text-primary'>Zach</span>.
           </h1>
           <p className='py-6 text-slate-300 font-bold'>
-            Front-end web developer with a customer service background.
+            Web Developer | TA @ 4Geeks Programming Bootcamp
           </p>
           <Link
             activeClass='active'

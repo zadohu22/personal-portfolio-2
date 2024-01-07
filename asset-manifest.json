@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio-2/static/css/main.427d271e.css",
-    "main.js": "/personal-portfolio-2/static/js/main.f4000c91.js",
+    "main.css": "/personal-portfolio-2/static/css/main.df204fc1.css",
+    "main.js": "/personal-portfolio-2/static/js/main.52c62831.js",
     "static/media/weather.png": "/personal-portfolio-2/static/media/weather.0cf6825f342dc992de70.png",
     "static/media/storepage.png": "/personal-portfolio-2/static/media/storepage.7e4a0d2027886b116e69.png",
     "static/media/cookbook.png": "/personal-portfolio-2/static/media/cookbook.0c6b3903fd6baf3b891a.png",
@@ -12,11 +12,11 @@
     "static/media/flashcards.png": "/personal-portfolio-2/static/media/flashcards.904456bcc3e3ae205cfe.png",
     "index.html": "/personal-portfolio-2/index.html",
     "static/media/curveNegative.svg": "/personal-portfolio-2/static/media/curveNegative.27d9756f767cd772720d93986341b558.svg",
-    "main.427d271e.css.map": "/personal-portfolio-2/static/css/main.427d271e.css.map",
-    "main.f4000c91.js.map": "/personal-portfolio-2/static/js/main.f4000c91.js.map"
+    "main.df204fc1.css.map": "/personal-portfolio-2/static/css/main.df204fc1.css.map",
+    "main.52c62831.js.map": "/personal-portfolio-2/static/js/main.52c62831.js.map"
   },
   "entrypoints": [
-    "static/css/main.427d271e.css",
-    "static/js/main.f4000c91.js"
+    "static/css/main.df204fc1.css",
+    "static/js/main.52c62831.js"
   ]
 }
